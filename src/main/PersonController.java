@@ -4,9 +4,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 
-/**
- * Created by samyboy89 on 29/05/15.
- */
 public class PersonController {
 
     private Person person;

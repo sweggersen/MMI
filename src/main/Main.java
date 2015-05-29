@@ -8,14 +8,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/**
- * Created by samyboy89 on 19/05/15.
- */
 public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-
         try {
             stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("view/view.fxml"))));
             stage.show();
